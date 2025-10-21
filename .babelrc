@@ -1,0 +1,25 @@
+{
+  "presets": ["next/babel"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["."]
+      }
+    ],
+    [
+      "emotion",
+      {
+        "inline": true
+      }
+    ],
+    [
+      "wrap-in-js",
+      {
+        "extensions": [
+          "css$"
+        ]
+      }
+    ]
+  ]
+}
